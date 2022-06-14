@@ -1,4 +1,4 @@
-﻿inicializar poryecto
+﻿inicializar proyecto
 npm init --yes
 
 instalar modulos
@@ -7,18 +7,18 @@ npm install express
 npm install mysql
     para conectar con mysql 
 npm install express-myconnection
-    integra exppres con mysql y permite escribir mysql mas rapido
+    integra express con mysql y permite escribir mysql mas rapido
 npm install morgan
     ayuda a ver las peticiones que llegan al servidor
 npm install ejs
     es un motor de plantilla que permite enviar html, que antes de enviarlos son porcesados en el servidor
     se pude ejecutar logica de porgramacion para crear el html, luego esta se porcesa en el servidor, y luego
     se envia al cliente          
-con esas intalaciones ya se podria crear un servidor ques e conecte a mysql   
+con esas intalaciones ya se podria crear un servidor que se conecte a mysql   
 ###
 escribo el codigo de app.js es el entrypoint
 //?1
-=>node serc/app.js
+=>node SRC/app.js
   localhost ya debe estar funcionando en el puerto 3000
 para no tener que estar parando el servidor cada que hago un cambio y volverlo a iniciar
  npm install nodemon -D el se encargara de reiniciar el servidor cada que alla un cambio
